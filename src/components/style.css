@@ -1,0 +1,68 @@
+.imgdiv{
+    /* background-color: red; */
+    /* width: 550px;
+    height: 130px; */
+    border: 1px solid gray;
+    margin-left: 5px;
+}
+.heading{
+    color: red;
+}
+.iphoneimg{
+    width: 190px;
+    height: 150px;
+}
+.pricediv{
+    border: 1px solid gray;
+    margin-left: 5px;
+    width: 170px;
+    height: 100px;
+  padding-top: 50px;
+
+}
+.addcartdiv{
+    border: 1px solid gray;
+    width: 170px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.buttondiv{
+    background-color: red;
+    border: none;
+    height: 50px;
+    border-radius: 4px;
+}
+.buttondiv:hover{
+    font-size: 20px;
+    border-radius: 4px;
+}
+.addcartimg{
+    width: 50px;
+    /* float: right; */
+    position: absolute;
+    right: 60px;
+    border: 2px solid gray;
+    border-radius: 4px;
+    
+}
+.addcartimg:hover{
+    width: 70px;
+    height: 60px;
+    background-color: darkblue;
+}
+.wrapperdiv{
+    background-color: green;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 600px;
+    border: 2px solid gray;
+    padding: 10px;
+
+}
+.wrapperdiv:hover{
+    background-image: linear-gradient(yellow,blue);
+}
